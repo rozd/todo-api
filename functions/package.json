@@ -11,6 +11,8 @@
   },
   "main": "lib/index.js",
   "dependencies": {
+    "@types/algoliasearch": "^3.27.4",
+    "algoliasearch": "^3.27.1",
     "firebase-admin": "~5.12.1",
     "firebase-functions": "^1.0.3"
   },
