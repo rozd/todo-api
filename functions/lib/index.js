@@ -11,7 +11,13 @@ const friends = require("./friends");
 exports.helloWorld = functions.https.onRequest((request, response) => {
     response.send("Hello from Firebase!");
 });
-//
+// Background functions
+exports.onUserCreate = friends.onUserCreate;
+exports.onUserDelete = friends.onUserDelete;
+exports.onUserProfileCreate = friends.onUserProfileCreate;
+exports.onUserProfileDelete = friends.onUserProfileDelete;
+exports.onUserProfileUpdate = friends.onUserProfileUpdate;
+// Server application
 const app = express();
 // Automatically allow cross-origin requests
 app.use(cors({ origin: true }));

@@ -15,7 +15,16 @@ export const helloWorld = functions.https.onRequest((request, response) => {
  response.send("Hello from Firebase!");
 });
 
-//
+// Background functions
+
+export const onUserCreate = friends.onUserCreate;
+export const onUserDelete = friends.onUserDelete;
+
+export const onUserProfileCreate = friends.onUserProfileCreate;
+export const onUserProfileDelete = friends.onUserProfileDelete;
+export const onUserProfileUpdate = friends.onUserProfileUpdate;
+
+// Server application
 
 const app = express();
 
