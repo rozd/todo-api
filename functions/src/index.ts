@@ -1,11 +1,14 @@
-import * as functions from 'firebase-functions';
+import * as admin from 'firebase-admin'
+import * as functions from 'firebase-functions'
+admin.initializeApp();
 
-import * as express from 'express';
+import * as express from 'express'
 import * as cors from 'cors'
-import * as parser from 'body-parser';
+import * as parser from 'body-parser'
 
-import * as auth from './auth';
+import whoops from './errors/Whoops'
 
+import * as auth from './auth'
 import * as friends from './friends'
 
 // Start writing Firebase Functions
@@ -33,6 +36,9 @@ app.use(cors({origin: true}));
 
 // Authentication
 app.use(auth.firebase);
+
+// Errors with Whoops
+app.use(whoops());
 
 // Parsing body
 app.use(parser.json());

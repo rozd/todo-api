@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="566da3ce-5800-43dc-abdf-4338051a11af" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/lib/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/lib/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/functions/lib/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/friends/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/friends/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/functions/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/auth/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/auth/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/friends/controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/friends/controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/friends/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/friends/router.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/model/custom.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/model/custom.d.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,44 +22,46 @@
     <session id="-1817617906">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="1" />
+          <entry key="TypeScriptServerServiceImpl" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="63" />
-          <entry key="json" value="103" />
-          <entry key="ts" value="3117" />
+          <entry key="json" value="104" />
+          <entry key="ts" value="7112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="103" />
+          <entry key="JSON" value="104" />
           <entry key="PLAIN_TEXT" value="63" />
-          <entry key="TypeScript" value="3117" />
+          <entry key="TypeScript" value="7112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="firebaserc" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="js" value="3" />
-          <entry key="json" value="3" />
-          <entry key="ts" value="16" />
+          <entry key="js" value="10" />
+          <entry key="json" value="4" />
+          <entry key="ts" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="3" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="10" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="TypeScript" value="16" />
+          <entry key="TypeScript" value="34" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
@@ -65,20 +72,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/src/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+            <state relative-caret-position="136">
+              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
               <folding>
-                <element signature="e#0#48#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/node_modules/@types/express-serve-static-core/index.d.ts">
+        <entry file="file://$PROJECT_DIR$/functions/src/errors/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/src/auth/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="221">
+              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -96,94 +106,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.firebaserc">
+        <entry file="file://$PROJECT_DIR$/functions/src/errors/Whoops.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/index.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="793">
-              <caret line="575" column="54" selection-start-line="575" selection-start-column="54" selection-end-line="575" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/node_modules/typescript/lib/lib.es5.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="1335" column="65" selection-start-line="1335" selection-start-column="65" selection-end-line="1335" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/node_modules/@types/express/index.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1070">
-              <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/src/model/custom.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/node_modules/@types/body-parser/index.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/firebase.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/functions/src/friends/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/types/firestore.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="993" column="41" selection-start-line="993" selection-start-column="41" selection-end-line="993" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/auth.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -191,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/src/friends/router.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="323">
+              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -203,56 +129,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/src/friends/controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+            <state relative-caret-position="629">
+              <caret line="37" column="66" lean-forward="true" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
               <folding>
-                <element signature="e#0#46#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/.runtimeconfig.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="272">
+              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -277,7 +167,23 @@
       <find>NextFunction</find>
       <find>Bearer</find>
       <find>token_uri</find>
+      <find>clone</find>
+      <find>codes</find>
+      <find>WhoopsErrorOptions</find>
+      <find>badR</find>
+      <find>(message, data)</find>
+      <find>res.</find>
+      <find>Unauthorized</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>public</replace>
+      <replace>, message, data));</replace>
+      <replace>(message: string, data?: object)</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/functions/src/errors</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -288,16 +194,21 @@
         <option value="$PROJECT_DIR$/functions/.env" />
         <option value="$PROJECT_DIR$/functions/src/modules/friends.ts" />
         <option value="$PROJECT_DIR$/firebase.json" />
-        <option value="$PROJECT_DIR$/functions/src/friends/controller.ts" />
         <option value="$PROJECT_DIR$/functions/src/routes/index.ts" />
         <option value="$PROJECT_DIR$/functions/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/functions/src/model/custom.d.ts" />
         <option value="$PROJECT_DIR$/functions/src/friends/router.ts" />
-        <option value="$PROJECT_DIR$/functions/package.json" />
-        <option value="$PROJECT_DIR$/functions/src/auth/index.ts" />
-        <option value="$PROJECT_DIR$/functions/src/index.ts" />
         <option value="$PROJECT_DIR$/functions/src/friends/index.ts" />
+        <option value="$PROJECT_DIR$/functions/src/model/custom.d.ts" />
+        <option value="$PROJECT_DIR$/functions/src/errors/errors.ts" />
+        <option value="$PROJECT_DIR$/functions/src/errors/Woops.ts" />
+        <option value="$PROJECT_DIR$/functions/src/errors/index.ts" />
+        <option value="$PROJECT_DIR$/functions/src/errors/a.ts" />
+        <option value="$PROJECT_DIR$/functions/src/index.ts" />
+        <option value="$PROJECT_DIR$/functions/src/friends/controller.ts" />
+        <option value="$PROJECT_DIR$/functions/src/errors/Whoops.ts" />
+        <option value="$PROJECT_DIR$/functions/src/auth/index.ts" />
+        <option value="$PROJECT_DIR$/functions/package.json" />
       </list>
     </option>
   </component>
@@ -312,560 +223,14 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
-      <path value="$PROJECT_DIR$/functions/node_modules/@firebase/app-types/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@firebase/app/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@firebase/database-types/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@firebase/database/node_modules/@firebase/util/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@firebase/database/node_modules/tslib/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@firebase/database/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@firebase/logger/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@firebase/util/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@google-cloud/common/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@google-cloud/storage/node_modules/@google-cloud/common/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@google-cloud/storage/node_modules/split-array-stream/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@google-cloud/storage/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@mrmlnc/readdir-enhanced/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@nodelib/fs.stat/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@protobufjs/aspromise/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@protobufjs/base64/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@protobufjs/codegen/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@protobufjs/eventemitter/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@protobufjs/fetch/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@protobufjs/float/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@protobufjs/inquire/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@protobufjs/path/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@protobufjs/pool/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@protobufjs/utf8/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/algoliasearch/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/body-parser/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/caseless/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/connect/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/cors/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/duplexify/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/events/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/express-serve-static-core/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/express/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/form-data/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/google-cloud__storage/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/jsonwebtoken/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/lodash/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/long/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/mime/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/node/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/range-parser/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/request/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/serve-static/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/@types/tough-cookie/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/accepts/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/acorn-es7-plugin/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/acorn-es7-plugin/test/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/acorn/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/agentkeepalive/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/ajv/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/algoliasearch/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/algoliasearch/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/algoliasearch/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/ansi-styles/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/argparse/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/arr-diff/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/arr-flatten/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/arr-union/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/array-filter/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/array-flatten/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/array-union/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/array-uniq/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/array-unique/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/arrify/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/ascli/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/asn1/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/assert-plus/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/assign-symbols/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/async/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/asynckit/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/atob/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/aws-sign2/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/aws4/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/axios/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/babel-code-frame/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/babel-code-frame/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/balanced-match/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/base/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/base/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/base/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/base/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/base/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/bcrypt-pbkdf/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/body-parser/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/body-parser/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/brace-expansion/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/braces/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/braces/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/buffer-equal-constant-time/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/buffer-from/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/builtin-modules/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/bun/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/bun/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/bun/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/bun/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/bytebuffer/node_modules/long/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/bytebuffer/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/bytes/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/cache-base/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/call-me-maybe/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/call-signature/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/camelcase/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/capture-stack-trace/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/caseless/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/chalk/node_modules/ansi-styles/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/chalk/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/chalk/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/class-utils/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/class-utils/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/cliui/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/co/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/code-point-at/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/collection-visit/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/color-convert/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/color-name/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/colour/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/combined-stream/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/commander/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/component-emitter/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/compressible/node_modules/mime-db/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/compressible/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/concat-map/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/concat-stream/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/configstore/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/content-disposition/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/content-type/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/cookie-signature/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/cookie/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/copy-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/core-js/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/cors/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/create-error-class/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/crypto-random-string/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/dashdash/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/decamelize/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/decode-uri-component/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/deep-equal/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/define-properties/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/define-property/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/delayed-stream/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/depd/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/destroy/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/diff-match-patch/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/diff/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/dir-glob/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/dom-walk/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/dot-prop/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/duplexify/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/eastasianwidth/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/ecc-jsbn/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/ecdsa-sig-formatter/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/ee-first/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/empower-core/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/empower/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/encodeurl/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/end-of-stream/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/ent/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/envify/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/es6-promise/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/escape-html/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/escape-string-regexp/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/esprima/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/espurify/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/estraverse/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/esutils/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/etag/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/events/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/expand-brackets/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/expand-brackets/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/expand-brackets/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/express/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/express/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/express/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/express/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/extend/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/extglob/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/extglob/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/extglob/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/extglob/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/extglob/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/extglob/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/extsprintf/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/fast-deep-equal/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/fast-glob/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/fast-json-stable-stringify/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/faye-websocket/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/fill-range/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/fill-range/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/finalhandler/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/finalhandler/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/firebase-admin/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/firebase-functions/node_modules/jsonwebtoken/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/firebase-functions/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/firebase-functions/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/follow-redirects/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/for-in/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/foreach/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/forever-agent/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/form-data/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/forwarded/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/fragment-cache/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/fresh/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/fs.realpath/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/functional-red-black-tree/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/gcp-metadata/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/gcs-resumable-upload/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/get-value/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/getpass/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/glob-parent/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/glob-parent/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/glob-to-regexp/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/global/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/globby/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/google-auth-library/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/google-auto-auth/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/google-gax/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/google-p12-pem/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/google-proto-files/node_modules/globby/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/google-proto-files/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/graceful-fs/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/abbrev/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/ansi-regex/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/aproba/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/are-we-there-yet/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/balanced-match/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/brace-expansion/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/chownr/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/code-point-at/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/concat-map/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/console-control-strings/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/core-util-is/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/deep-extend/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/delegates/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/detect-libc/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/fs-minipass/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/fs.realpath/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/gauge/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/glob/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/has-unicode/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/iconv-lite/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/ignore-walk/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/inflight/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/ini/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/minipass/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/minizlib/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/mkdirp/node_modules/minimist/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/mkdirp/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/needle/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/node-pre-gyp/lib/util/nw-pre-gyp/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/node-pre-gyp/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/nopt/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/npm-bundled/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/npm-packlist/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/npmlog/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/number-is-nan/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/object-assign/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/once/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/os-homedir/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/os-tmpdir/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/osenv/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/path-is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/protobufjs/examples/protoify/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/protobufjs/examples/websocket/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/protobufjs/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/rc/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/rimraf/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/safer-buffer/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/sax/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/set-blocking/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/signal-exit/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/string-width/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/strip-json-comments/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/tar/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/util-deprecate/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/wide-align/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/wrappy/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/node_modules/yallist/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/grpc/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/gtoken/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/har-schema/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/har-validator/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/has-ansi/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/has-flag/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/has-value/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/has-values/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/has-values/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/hash-stream-validation/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/http-errors/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/http-parser-js/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/http-signature/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/iconv-lite/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/ignore/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/imurmurhash/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/indexof/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/inflight/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/inherits/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/invert-kv/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/ipaddr.js/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-buffer/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-descriptor/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-extglob/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-fullwidth-code-point/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-glob/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-number/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-obj/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-odd/node_modules/is-number/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-odd/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-plain-object/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-stream-ended/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-typedarray/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is-windows/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/is/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/isarray/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/isstream/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/js-tokens/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/js-yaml/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/jsbn/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/json-schema-traverse/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/json-schema/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/json-stringify-safe/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/jsonwebtoken/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/jsprim/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/jwa/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/jws/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/lcid/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/load-script/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/lodash.includes/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/lodash.isboolean/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/lodash.isinteger/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/lodash.isnumber/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/lodash.isplainobject/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/lodash.isstring/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/lodash.once/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/lodash/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/log-driver/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/long/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/lru-cache/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/make-dir/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/map-cache/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/map-visit/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/media-typer/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/merge-descriptors/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/merge2/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/methmeth/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/methods/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/micromatch/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/mime-db/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/mime-types/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/min-document/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/minimatch/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/mixin-deep/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/modelo/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/ms/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/nan/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/nan/tools/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/nanomatch/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/negotiator/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/node-forge/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/number-is-nan/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/oauth-sign/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/object-assign/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/object-copy/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/object-copy/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/object-copy/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/object-keys/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/object-visit/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/object.pick/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/on-finished/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/once/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/optjs/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/os-locale/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/parseurl/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/pascalcase/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/path-dirname/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/path-is-absolute/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/path-parse/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/path-to-regexp/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/path-type/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/performance-now/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/pify/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/posix-character-classes/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/power-assert-context-formatter/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/power-assert-context-reducer-ast/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/power-assert-context-traversal/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/power-assert-formatter/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/power-assert-renderer-assertion/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/power-assert-renderer-base/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/power-assert-renderer-comparison/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/power-assert-renderer-diagram/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/power-assert-renderer-file/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/power-assert-util-string-width/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/power-assert/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/process-nextick-args/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/process/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/protobufjs/cli/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/protobufjs/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/proxy-addr/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/pseudomap/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/pump/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/pumpify/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/punycode/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/qs/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/querystring-es3/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/range-parser/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/raw-body/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/readable-stream/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/reduce/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/regex-not/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/repeat-element/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/repeat-string/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/request/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/resolve-url/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/resolve/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/resolve/test/module_dir/zmodules/bbb/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/resolve/test/resolver/baz/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/resolve/test/resolver/browser_field/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/resolve/test/resolver/dot_main/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/resolve/test/resolver/dot_slash_main/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/resolve/test/resolver/incorrect_main/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/ret/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/retry-axios/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/retry-request/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/safe-buffer/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/safe-regex/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/safer-buffer/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/semver/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/send/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/send/node_modules/mime/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/send/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/serve-static/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/set-value/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/set-value/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/setprototypeof/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/signal-exit/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/slash/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/snakeize/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/snapdragon-node/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/snapdragon-node/node_modules/is-data-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/snapdragon-node/node_modules/is-descriptor/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/snapdragon-node/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/snapdragon-util/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/snapdragon-util/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/snapdragon/node_modules/debug/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/snapdragon/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/snapdragon/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/snapdragon/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/source-map-resolve/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/source-map-url/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/source-map/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/split-array-stream/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/split-string/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/sprintf-js/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/sshpk/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/static-extend/node_modules/define-property/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/static-extend/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/statuses/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/stream-events/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/stream-shift/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/string-format-obj/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/string-width/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/string_decoder/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/stringifier/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/strip-ansi/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/stubs/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/supports-color/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/through/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/through2/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/to-object-path/node_modules/kind-of/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/to-object-path/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/to-regex-range/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/to-regex/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/tough-cookie/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/traverse/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/tslib/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/tslint/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/tsutils/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/tunnel-agent/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/tweetnacl/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/type-is/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/type-name/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/typedarray/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/typescript/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/union-value/node_modules/extend-shallow/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/union-value/node_modules/set-value/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/union-value/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/unique-string/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/universal-deep-strict-equal/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/unpipe/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/unset-value/node_modules/has-value/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/unset-value/node_modules/has-values/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/unset-value/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/urix/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/use/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/util-deprecate/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/utils-merge/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/uuid/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/vary/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/verror/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/websocket-driver/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/websocket-extensions/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/window-size/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/wrap-ansi/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/wrappy/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/write-file-atomic/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/xdg-basedir/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/xtend/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/y18n/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/yallist/package.json" />
-      <path value="$PROJECT_DIR$/functions/node_modules/yargs/package.json" />
       <path value="$PROJECT_DIR$/functions/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2560" />
-    <option name="y" value="23" />
-    <option name="width" value="2560" />
-    <option name="height" value="1417" />
+    <option name="x" value="58" />
+    <option name="y" value="65" />
+    <option name="width" value="2295" />
+    <option name="height" value="1300" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -876,7 +241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -888,6 +252,138 @@
               <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="todo-web" type="462c0819:PsiDirectoryNode" />
               <item name="functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="friends" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@types" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@types" type="462c0819:PsiDirectoryNode" />
+              <item name="cors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="boom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="boom" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="cors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="cors" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="express-serve-static-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="firebase-functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="firebase-functions" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="firebase-functions" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="providers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="hoek" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="hoek" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="typescript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="typescript" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
@@ -907,12 +403,27 @@
               <item name="todo-web" type="462c0819:PsiDirectoryNode" />
               <item name="functions" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="errors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="friends" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -925,7 +436,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15295815" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/functions/node_modules/typescript/lib" />
   </component>
   <component name="RunDashboard">
@@ -988,22 +499,22 @@
       <updated>1528636543918</updated>
       <workItem from="1528636546413" duration="11065000" />
       <workItem from="1528914973531" duration="1243000" />
-      <workItem from="1537276602962" duration="20288000" />
+      <workItem from="1537276602962" duration="21744000" />
+      <workItem from="1537572586483" duration="11992000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32596000" />
+    <option name="totallyTimeSpent" value="46044000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2560" y="23" width="2560" height="1417" extended-state="6" />
+    <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12248917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32941177" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -1016,6 +527,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1068,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/node_modules/@types/body-parser/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/config.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1082,122 +587,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/firebase.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/.runtimeconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/routes/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/friends/controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/lib/friends/controller.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/lib/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/lib/modules/friends.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/node_modules/typescript/lib/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="1335" column="65" selection-start-line="1335" selection-start-column="65" selection-end-line="1335" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/model/custom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/friends/router.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/routes/index.ts" />
+    <entry file="file://$PROJECT_DIR$/functions/lib/routes/index.js" />
+    <entry file="file://$PROJECT_DIR$/functions/lib/modules/friends.js" />
     <entry file="file://$PROJECT_DIR$/functions/node_modules/@types/express-serve-static-core/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/node_modules/@types/express/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1070">
-          <caret line="78" column="46" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/auth/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1208,6 +604,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/typescript/lib/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22474">
+          <caret line="1335" column="65" selection-start-line="1335" selection-start-column="65" selection-end-line="1335" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firebase.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/types/firestore.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16881">
+          <caret line="993" column="41" selection-start-line="993" selection-start-column="41" selection-end-line="993" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/auth.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1215,37 +632,213 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/functions/.runtimeconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions/node_modules/firebase-admin/lib/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="793">
-          <caret line="575" column="54" selection-start-line="575" selection-start-column="54" selection-end-line="575" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/types/firestore.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="993" column="41" selection-start-line="993" selection-start-column="41" selection-end-line="993" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        <state relative-caret-position="553">
+          <caret line="132" column="12" selection-start-line="132" selection-start-column="12" selection-end-line="132" selection-end-column="12" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="n#DocumentReference#0;n#firestore#0;n#admin#8" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/@types/express/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="78" column="14" selection-start-line="78" selection-start-column="14" selection-end-line="78" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/lib/friends/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/src/friends/index.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        <state relative-caret-position="68">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/@types/connect/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/@types/body-parser/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="49" column="62" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/analytics.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/hoek/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="246" column="30" selection-start-line="246" selection-start-column="25" selection-end-line="246" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/typescript/lib/lib.es2015.iterable.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="151" column="4" selection-start-line="151" selection-start-column="4" selection-end-line="151" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/errors/a.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/model/custom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/express-serve-static-core/express-serve-static-core.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="430" column="8" selection-start-line="430" selection-start-column="8" selection-end-line="430" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/cors/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1182">
+          <caret line="235" column="25" selection-start-line="235" selection-start-column="25" selection-end-line="235" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/boom/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1129">
+          <caret line="245" lean-forward="true" selection-start-line="245" selection-end-line="245" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/@types/cors/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/friends/router.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/friends/controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="66" lean-forward="true" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/errors/Whoops.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/auth/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/errors/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>

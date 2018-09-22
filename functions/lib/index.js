@@ -1,9 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+const admin = require("firebase-admin");
 const functions = require("firebase-functions");
+admin.initializeApp();
 const express = require("express");
 const cors = require("cors");
 const parser = require("body-parser");
+const Whoops_1 = require("./errors/Whoops");
 const auth = require("./auth");
 const friends = require("./friends");
 // Start writing Firebase Functions
@@ -23,6 +26,8 @@ const app = express();
 app.use(cors({ origin: true }));
 // Authentication
 app.use(auth.firebase);
+// Errors with Whoops
+app.use(Whoops_1.default());
 // Parsing body
 app.use(parser.json());
 app.use(parser.urlencoded());

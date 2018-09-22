@@ -3,8 +3,6 @@ import * as admin from 'firebase-admin'
 import {Request, Response} from "express";
 import {NextFunction} from "express-serve-static-core";
 
-admin.initializeApp();
-
 export const firebase = (req: Request, res: Response, next: NextFunction) => {
     console.log('Check if request is authorized with Firebase ID token');
 
@@ -13,13 +11,13 @@ export const firebase = (req: Request, res: Response, next: NextFunction) => {
             'Make sure you authorize your request by providing the following HTTP header:',
             'Authorization: Bearer <Firebase ID Token>',
             'or by passing a "__session" cookie.');
-        res.status(403).send('Unauthorized');
+        res.whoops.unauthorized();
         return;
     }
 
     const accessToken = getAccessTokenFromRequest(req);
     if (!accessToken) {
-        res.status(403).send('Unauthorized');
+        res.whoops.unauthorized();
     }
 
     admin.auth().verifyIdToken(accessToken).then(decodedIdToken => {
@@ -28,7 +26,7 @@ export const firebase = (req: Request, res: Response, next: NextFunction) => {
         next()
     }).catch(reason => {
         console.error('Error while verifying Firebase ID token:', reason);
-        res.status(403).send('Unauthorized');
+        res.whoops.unauthorized();
     });
 };
 
