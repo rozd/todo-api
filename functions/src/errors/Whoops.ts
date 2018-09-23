@@ -414,6 +414,10 @@ export class Whoops {
     }
 }
 
+export function whoopsErrorHandler(error, req: Request, res: Response, next: NextFunction) {
+    res.whoops.send(error);
+}
+
 export default function (options?: WhoopsOptions) {
     return function middleware(req: Request, res: Response, next: NextFunction) {
         if (res.whoops) {

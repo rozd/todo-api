@@ -7,7 +7,8 @@
     "shell": "npm run build && firebase functions:shell",
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
+    "logs": "firebase functions:log",
+    "postinstall": "cat lib/express/router/layer.js > node_modules/express/lib/router/layer.js"
   },
   "main": "lib/index.js",
   "dependencies": {
@@ -15,7 +16,7 @@
     "algoliasearch": "^3.27.1",
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
-    "express": "^4.16.3",
+    "express": "4.16.3",
     "express-serve-static-core": "^0.1.1",
     "firebase-admin": "~5.12.1",
     "firebase-functions": "^1.0.3"

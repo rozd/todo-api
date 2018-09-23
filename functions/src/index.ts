@@ -7,6 +7,7 @@ import * as cors from 'cors'
 import * as parser from 'body-parser'
 
 import whoops from './errors/Whoops'
+import { whoopsErrorHandler} from "./errors/Whoops";
 
 import * as auth from './auth'
 import * as friends from './friends'
@@ -34,7 +35,7 @@ const app = express();
 // Automatically allow cross-origin requests
 app.use(cors({origin: true}));
 
-// Errors with Whoops
+// Initializes Whoops error support
 app.use(whoops());
 
 // Authentication
@@ -46,5 +47,8 @@ app.use(parser.urlencoded({ extended: true }));
 
 // Module routes
 app.use('/friends', friends.router);
+
+// Adds error handling with Whoops
+app.use(whoopsErrorHandler);
 
 export const api = functions.https.onRequest(app);

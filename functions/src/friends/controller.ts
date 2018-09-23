@@ -70,7 +70,7 @@ export const createFriendInvitation = (req: Request, res: Response) => {
     const outgoingInvite = inviter.collection('outgoingRequests').doc(req.params.friend);
     const incomingInvite = invitee.collection('incomingRequests').doc(req.user.uid);
 
-    Promise.resolve(true)
+    return Promise.resolve(true)
         .then(() => invitee.get())
         .then(snap => {
             if (!snap.exists) {
@@ -90,10 +90,6 @@ export const createFriendInvitation = (req: Request, res: Response) => {
             batch.set(incomingInvite, { status: 'awaiting' });
             batch.set(outgoingInvite, { status: 'awaiting' });
             return batch.commit();
-        }).then(value => {
-            res.status(200).send(value);
-        }).catch(reason => {
-            res.whoops.send(reason);
         });
 };
 

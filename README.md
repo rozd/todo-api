@@ -70,3 +70,11 @@ POST /friends/:friend/invite/incoming current user accepts invite from :friend
 DELETE /friends/:friend/invite/incoming current user rejects invite from :friend
 
 ```
+
+### Error handling
+
+**Important**: Return promise support is added to the express' Router by hacking its code as described [here](https://medium.com/@the1mills/hacking-express-to-support-returned-promises-in-middleware-9487251ca124). 
+The file for override is here `./lib/express/router/layer.js` and here is a postinstall script:
+```
+node_modules/express/lib/router/layer.js
+```
