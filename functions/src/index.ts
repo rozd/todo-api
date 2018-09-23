@@ -34,15 +34,15 @@ const app = express();
 // Automatically allow cross-origin requests
 app.use(cors({origin: true}));
 
-// Authentication
-app.use(auth.firebase);
-
 // Errors with Whoops
 app.use(whoops());
 
+// Authentication
+app.use(auth.firebase);
+
 // Parsing body
 app.use(parser.json());
-app.use(parser.urlencoded());
+app.use(parser.urlencoded({ extended: true }));
 
 // Module routes
 app.use('/friends', friends.router);

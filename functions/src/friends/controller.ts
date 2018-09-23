@@ -1,9 +1,11 @@
 import * as admin from 'firebase-admin'
-import * as functions from 'firebase-functions';
+import * as functions from 'firebase-functions'
 
 import * as algoliasearch from 'algoliasearch'
 
-import { Request, Response } from 'express';
+import { Request, Response } from 'express'
+import {DocumentSnapshot} from "firebase-functions/lib/providers/firestore";
+import { Whoops } from '../errors/Whoops'
 
 const ALGOLIA_APP_ID = functions.config().algolia.app_id;
 const ALGOLIA_API_KEY = functions.config().algolia.api_key;
@@ -34,7 +36,6 @@ export const createFriend = (req, res) => {
 };
 
 export const searchFriend = (req, res) => {
-    return res.whoops.badData("something wrong");
     indexFriends.search({query: req.params.query}).then(value => {
         res.send(value.hits);
     }).catch(reason => {
@@ -63,20 +64,28 @@ export const deleteFriend = (req, res) => {
 
 export const createFriendInvitation = (req: Request, res: Response) => {
 
-
-    const batch = db.batch();
-
-    const invitee = db.collection("users").doc(req.params.friend).collection("incomingRequests").doc(req.user.uid);
-    batch.set(invitee, { status: "awaiting" });
-
     const inviter = db.collection("users").doc(req.user.uid).collection("outgoingRequests").doc(req.params.friend);
-    batch.set(inviter, { status: "awaiting" });
 
-    batch.commit().then(value => {
-        res.status(200).send(value);
-    }).catch(reason => {
-        res.status(500).send(reason);
-    });
+    inviter.get()
+        .then((snap: DocumentSnapshot) => {
+            console.debug("inviter exists:" + snap.exists);
+            if (snap.exists) {
+                throw Whoops.badRequest('You already invited this friend.');
+            }
+
+            const batch = db.batch();
+
+            const invitee = db.collection("users").doc(req.params.friend).collection("incomingRequests").doc(req.user.uid);
+            batch.set(invitee, { status: "awaiting" });
+
+            batch.set(inviter, { status: "awaiting" });
+
+            return batch.commit();
+        }).then(value => {
+            res.status(200).send(value);
+        }).catch(reason => {
+            res.whoops.send(reason);
+        });
 };
 
 export const deleteFriendInvitation = (req, res) => {
