@@ -17,6 +17,7 @@ class WhoopsError extends Error {
 
         let whoopsError: WhoopsError = new WhoopsError(500, 'An internal server error occurred', error);
         whoopsError.stack = error.stack;
+        whoopsError.origin = error;
 
         return whoopsError;
     }
@@ -24,6 +25,7 @@ class WhoopsError extends Error {
     public status: number;
     public data?: object;
     public isDeveloperError: boolean = false;
+    public origin?: Error;
 
     constructor(status: number, message: string, data?: object, headers?: Map<string, string>) {
         super(message);
@@ -43,6 +45,9 @@ class WhoopsError extends Error {
         }
         if (options.shouldIncludeErrorStack) {
             payload.errorStack = this.stack;
+        }
+        if (this.origin) {
+            payload.origin = this.origin;
         }
         return payload;
     }

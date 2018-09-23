@@ -64,22 +64,31 @@ export const deleteFriend = (req, res) => {
 
 export const createFriendInvitation = (req: Request, res: Response) => {
 
-    const inviter = db.collection("users").doc(req.user.uid).collection("outgoingRequests").doc(req.params.friend);
+    const inviter = db.collection('users').doc(req.user.uid);
+    const invitee = db.collection('users').doc(req.params.friend);
 
-    inviter.get()
-        .then((snap: DocumentSnapshot) => {
-            console.debug("inviter exists:" + snap.exists);
-            if (snap.exists) {
-                throw Whoops.badRequest('You already invited this friend.');
+    const outgoingInvite = inviter.collection('outgoingRequests').doc(req.params.friend);
+    const incomingInvite = invitee.collection('incomingRequests').doc(req.user.uid);
+
+    Promise.resolve(true)
+        .then(() => invitee.get())
+        .then(snap => {
+            if (!snap.exists) {
+                throw Whoops.notFound('User not found');
             }
-
+            return true;
+        })
+        .then(() => outgoingInvite.get())
+        .then(snap => {
+            if (snap.exists && snap.data().status != 'rejected') {
+                throw Whoops.conflict('You already sent invite to this user.');
+            }
+            return true
+        })
+        .then(() => {
             const batch = db.batch();
-
-            const invitee = db.collection("users").doc(req.params.friend).collection("incomingRequests").doc(req.user.uid);
-            batch.set(invitee, { status: "awaiting" });
-
-            batch.set(inviter, { status: "awaiting" });
-
+            batch.set(incomingInvite, { status: 'awaiting' });
+            batch.set(outgoingInvite, { status: 'awaiting' });
             return batch.commit();
         }).then(value => {
             res.status(200).send(value);
@@ -88,14 +97,58 @@ export const createFriendInvitation = (req: Request, res: Response) => {
         });
 };
 
-export const deleteFriendInvitation = (req, res) => {
+export const deleteFriendInvitation = (req: Request, res: Response) => {
+    const inviter = db.collection('users').doc(req.user.uid).collection('outgoingRequests').doc(req.params.friend);
+    const invitee = db.collection('users').doc(req.params.friend).collection('incomingRequests').doc(req.user.uid);
+
+    inviter.get()
+        .then(snap => {
+            if (!snap.exists) {
+                throw Whoops.notFound('The invitation could not be cancelled as it does not exist.');
+            }
+
+            const batch = db.batch();
+            batch.delete(inviter);
+            batch.delete(invitee);
+            return batch.commit();
+        }).then(value => {
+            res.status(200).send(value);
+        }).catch(reason => {
+            res.whoops.send(reason);
+        });
+};
+
+export const acceptFriendInvitation = (req: Request, res: Response) => {
     res.status(200).send("OK");
 };
 
-export const acceptFriendInvitation = (req, res) => {
-    res.status(200).send("OK");
-};
+export const rejectFriendInvitation = (req: Request, res: Response) => {
+    const invitee = db.collection('users').doc(req.user.uid).collection('incomingRequests').doc(req.params.friend);
+    const inviter = db.collection('users').doc(req.params.friend).collection('outgoingRequests').doc(req.user.uid);
 
-export const rejectFriendInvitation = (req, res) => {
-    res.status(200).send("OK");
+    Promise.resolve(true)
+        .then(value => invitee.get())
+        .then(snap => {
+            if (!snap.exists) {
+                throw Whoops.notFound('The invitation could not be rejected as it does not exist anymore.');
+            }
+            return true;
+        })
+        .then(value => inviter.get())
+        .then(snap => {
+            if (!snap.exists) {
+                throw Whoops.notFound('The invitation could not be rejected as it does not exist anymore on inviter side.');
+            }
+            return true;
+        })
+        .then(value => {
+            const batch = db.batch();
+            batch.delete(invitee);
+            batch.set(inviter, { status : 'rejected' });
+            return batch.commit();
+        }).then(value => {
+            res.status(200).send(value);
+        }).catch(reason => {
+            res.whoops.send(reason);
+        });
 };

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="566da3ce-5800-43dc-abdf-4338051a11af" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/lib/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/functions/lib/index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/src/errors/Whoops.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/errors/Whoops.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/src/friends/controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/friends/controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,17 +29,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="63" />
-          <entry key="js" value="14" />
+          <entry key="js" value="18" />
           <entry key="json" value="104" />
-          <entry key="ts" value="8613" />
+          <entry key="ts" value="10092" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="104" />
-          <entry key="JavaScript" value="14" />
+          <entry key="JavaScript" value="18" />
           <entry key="PLAIN_TEXT" value="63" />
-          <entry key="TypeScript" value="8613" />
+          <entry key="TypeScript" value="10092" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -53,7 +49,7 @@
           <entry key="html" value="1" />
           <entry key="js" value="14" />
           <entry key="json" value="4" />
-          <entry key="ts" value="40" />
+          <entry key="ts" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -62,7 +58,7 @@
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="14" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="TypeScript" value="40" />
+          <entry key="TypeScript" value="42" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
@@ -70,16 +66,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/src/errors/Whoops.ts">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="406" column="5" lean-forward="true" selection-start-line="406" selection-start-column="5" selection-end-line="406" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/functions/src/friends/controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="963">
-              <caret line="86" column="36" lean-forward="true" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
+            <state relative-caret-position="317">
+              <caret line="110" column="34" lean-forward="true" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -88,10 +88,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/node_modules/typescript/lib/lib.es5.d.ts">
+        <entry file="file://$PROJECT_DIR$/functions/src/model/custom.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1291">
-              <caret line="913" column="14" selection-start-line="913" selection-start-column="14" selection-end-line="913" selection-end-column="14" />
+            <state relative-caret-position="119">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/types/firestore.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="593" column="18" selection-start-line="593" selection-start-column="18" selection-end-line="593" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -130,6 +139,7 @@
       <find>this.send(</find>
       <find>));</find>
       <find>new WhoopsError</find>
+      <find>&quot;users&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -141,6 +151,7 @@
       <replace>): WhoopsError {</replace>
       <replace>return</replace>
       <replace>);</replace>
+      <replace>'users'</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/functions/src/errors</dir>
@@ -168,8 +179,8 @@
         <option value="$PROJECT_DIR$/functions/src/auth/index.ts" />
         <option value="$PROJECT_DIR$/functions/package.json" />
         <option value="$PROJECT_DIR$/functions/src/index.ts" />
-        <option value="$PROJECT_DIR$/functions/src/friends/controller.ts" />
         <option value="$PROJECT_DIR$/functions/src/errors/Whoops.ts" />
+        <option value="$PROJECT_DIR$/functions/src/friends/controller.ts" />
       </list>
     </option>
   </component>
@@ -255,6 +266,30 @@
               <item name="todo-web" type="462c0819:PsiDirectoryNode" />
               <item name="functions" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@google-cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@google-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="firestore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@google-cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="firestore" type="462c0819:PsiDirectoryNode" />
+              <item name="types" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
@@ -418,12 +453,12 @@
       <workItem from="1528636546413" duration="11065000" />
       <workItem from="1528914973531" duration="1243000" />
       <workItem from="1537276602962" duration="21744000" />
-      <workItem from="1537572586483" duration="21192000" />
+      <workItem from="1537572586483" duration="25690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55244000" />
+    <option name="totallyTimeSpent" value="59742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
@@ -436,7 +471,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290566" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.21660377" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3018868" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -461,14 +496,29 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/functions/src/friends/controller.ts</url>
+          <line>125</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="ChromiumRemoteDebugType">
-        <watch expression="error" language="TypeScript" />
+        <watch expression="snap" language="TypeScript" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>snap</expression-string>
+        <language-id>TypeScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>error</expression-string>
         <language-id>TypeScript</language-id>
@@ -639,13 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/model/custom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/node_modules/express-serve-static-core/express-serve-static-core.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -718,13 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/types/firestore.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="993" column="42" lean-forward="true" selection-start-line="993" selection-start-column="42" selection-end-line="993" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/firestore.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -788,16 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/friends/controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="963">
-          <caret line="86" column="36" lean-forward="true" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/node_modules/typescript/lib/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1291">
@@ -805,8 +831,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/model/custom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/@google-cloud/firestore/types/firestore.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="593" column="18" selection-start-line="593" selection-start-column="18" selection-end-line="593" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/functions/src/errors/Whoops.ts">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="406" column="5" lean-forward="true" selection-start-line="406" selection-start-column="5" selection-end-line="406" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/friends/controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="110" column="34" lean-forward="true" selection-start-line="110" selection-start-column="34" selection-end-line="110" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
