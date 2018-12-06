@@ -1,16 +1,15 @@
 import { Router, Request, Response } from 'express';
 
-import * as controller from './controller';
-
-import invite from './fiend-invite-controller'
+import invite from './friends-invite-controller';
+import search from './friends-search-controller';
 import {whoopsErrorHandler} from "../errors/Whoops";
 
 const router = Router();
 
 router.route('/:friendId')
-    .post(controller.createFriend)
-    .put(controller.updateFriend)
-    .delete(controller.deleteFriend);
+    .post(search.create)
+    .put(search.update)
+    .delete(search.delete);
 
 router.route('/:friend/invite/outgoing')
     .post(invite.create)
@@ -20,7 +19,7 @@ router.route('/:friend/invite/incoming')
     .post(invite.accept)
     .delete(invite.reject);
 
-router.route('/search').get(controller.searchFriend);
+router.route('/search').get(search.search);
 
 router.use(whoopsErrorHandler);
 

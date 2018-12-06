@@ -1,13 +1,9 @@
-import {FirestoreController} from "../support/controller";
 import {Request, Response} from "express";
 import {Whoops} from "../errors/Whoops";
 import {DocumentSnapshot} from "firebase-functions/lib/providers/firestore";
+import {FirestoreController} from "../support/controller/FirestoreController";
 
 export class FriendInviteController extends FirestoreController {
-
-    constructor() {
-        super();
-    }
 
     // MARK: Create invite
 
@@ -44,7 +40,7 @@ export class FriendInviteController extends FirestoreController {
                     throw Whoops.conflict('You already sent invite to this user.');
                 }
                 return { inviter: inviterSnp, invitee: inviteeSnp };
-            }).then(data => {
+            }).then(() => {
                 const batch = this.db.batch();
                 batch.set(incomingInvite, { status: 'awaiting' });
                 batch.set(outgoingInvite, { status: 'awaiting' });

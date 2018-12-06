@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="566da3ce-5800-43dc-abdf-4338051a11af" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/functions/src/friends/controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/friends/controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/lib/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/functions/lib/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/errors/Whoops.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/errors/Whoops.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/friends/controller.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/friends/fiend-invite-controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/friends/friends-invite-controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/friends/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/friends/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions/src/friends/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/friends/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/src/support/controller/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/support/controller/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/support/controller/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/functions/src/support/controller/FirestoreController.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,15 +23,18 @@
     <session id="-1817617906">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="2" />
+          <entry key="TypeScriptServerServiceImpl" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -34,7 +44,7 @@
           <entry key="js" value="128" />
           <entry key="json" value="118" />
           <entry key="md" value="287" />
-          <entry key="ts" value="14055" />
+          <entry key="ts" value="15295" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -43,7 +53,7 @@
           <entry key="JavaScript" value="140" />
           <entry key="Markdown" value="287" />
           <entry key="PLAIN_TEXT" value="63" />
-          <entry key="TypeScript" value="14055" />
+          <entry key="TypeScript" value="15295" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -51,20 +61,20 @@
           <entry key="firebaserc" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
-          <entry key="js" value="17" />
+          <entry key="js" value="18" />
           <entry key="json" value="7" />
           <entry key="md" value="2" />
-          <entry key="ts" value="62" />
+          <entry key="ts" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JSON" value="5" />
-          <entry key="JavaScript" value="17" />
+          <entry key="JavaScript" value="18" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="TypeScript" value="62" />
+          <entry key="TypeScript" value="73" />
           <entry key="tsconfig" value="2" />
         </counts>
       </usages-collector>
@@ -75,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/src/index.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
-              <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+            <state relative-caret-position="425">
+              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
                 <element signature="e#112#146#0" expanded="true" />
@@ -86,55 +96,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/src/errors/Whoops.ts">
+        <entry file="file://$PROJECT_DIR$/functions/src/friends/friends-search-controller.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="989">
-              <caret line="417" column="27" lean-forward="true" selection-start-line="417" selection-start-column="27" selection-end-line="417" selection-end-column="27" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#0#74#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/src/support/controller/index.ts">
+        <entry file="file://$PROJECT_DIR$/functions/lib/support/finalizer/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="51">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/src/errors/Whoops.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="388" column="17" selection-start-line="388" selection-start-column="17" selection-end-line="388" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions/src/friends/friends-invite-controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/functions/src/friends/fiend-invite-controller.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1022">
-              <caret line="112" column="104" lean-forward="true" selection-start-line="112" selection-start-column="104" selection-end-line="112" selection-end-column="104" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions/src/friends/controller.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions/src/friends/router.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+            <state relative-caret-position="425">
+              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
               <folding>
                 <element signature="e#0#52#0" expanded="true" />
               </folding>
@@ -143,13 +150,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="984">
-                <caret line="79" column="3" selection-start-line="79" selection-start-column="3" selection-end-line="79" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/functions/src/friends/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,7 +173,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>algo</find>
       <find>env</find>
       <find>searchForFriend</find>
       <find>objectID</find>
@@ -194,13 +200,15 @@
       <find>incomingRequests</find>
       <find>equest</find>
       <find>outgoingRequest</find>
+      <find>indexFriends</find>
+      <find>invite/outgoing</find>
+      <find>res.whoops</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>public</replace>
       <replace>, message, data));</replace>
       <replace>(message: string, data?: object)</replace>
-      <replace>public static</replace>
       <replace>public static</replace>
       <replace>): WhoopsError {</replace>
       <replace>return</replace>
@@ -225,7 +233,6 @@
         <option value="$PROJECT_DIR$/functions/src/routes/index.ts" />
         <option value="$PROJECT_DIR$/functions/.gitignore" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/functions/src/friends/index.ts" />
         <option value="$PROJECT_DIR$/functions/src/model/custom.d.ts" />
         <option value="$PROJECT_DIR$/functions/src/errors/errors.ts" />
         <option value="$PROJECT_DIR$/functions/src/errors/Woops.ts" />
@@ -237,14 +244,19 @@
         <option value="$PROJECT_DIR$/functions/lib/express/router/layer.js" />
         <option value="$PROJECT_DIR$/functions/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/functions/src/errors/Whoops.ts" />
-        <option value="$PROJECT_DIR$/functions/src/index.ts" />
-        <option value="$PROJECT_DIR$/functions/src/support/controller/index.ts" />
         <option value="$PROJECT_DIR$/functions/src/support/handler/index.ts" />
         <option value="$PROJECT_DIR$/functions/src/support/finalizer/index.ts" />
-        <option value="$PROJECT_DIR$/functions/src/friends/router.ts" />
         <option value="$PROJECT_DIR$/functions/src/friends/controller.ts" />
+        <option value="$PROJECT_DIR$/functions/src/index.ts" />
+        <option value="$PROJECT_DIR$/functions/src/friends/index.ts" />
         <option value="$PROJECT_DIR$/functions/src/friends/fiend-invite-controller.ts" />
+        <option value="$PROJECT_DIR$/functions/src/friends/friend-search-controller.ts" />
+        <option value="$PROJECT_DIR$/functions/src/support/controller/index.ts" />
+        <option value="$PROJECT_DIR$/functions/src/friends/friends-invite-controller.ts" />
+        <option value="$PROJECT_DIR$/functions/src/friends/router.ts" />
+        <option value="$PROJECT_DIR$/functions/src/errors/Whoops.ts" />
+        <option value="$PROJECT_DIR$/functions/src/support/controller/AlgoliaController.ts" />
+        <option value="$PROJECT_DIR$/functions/src/friends/friends-search-controller.ts" />
       </list>
     </option>
   </component>
@@ -263,10 +275,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="58" />
-    <option name="y" value="65" />
-    <option name="width" value="2295" />
-    <option name="height" value="1300" />
+    <option name="y" value="53" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -277,6 +288,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -324,6 +336,30 @@
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="express" type="462c0819:PsiDirectoryNode" />
               <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="finalizer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="finalizer" type="462c0819:PsiDirectoryNode" />
+              <item name="index.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
@@ -407,6 +443,15 @@
               <item name="todo-web" type="462c0819:PsiDirectoryNode" />
               <item name="functions" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="firebase-functions" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="providers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="todo-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="todo-web" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
               <item name="typescript" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -468,7 +513,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -553,25 +597,28 @@
       <workItem from="1528636546413" duration="11065000" />
       <workItem from="1528914973531" duration="1243000" />
       <workItem from="1537276602962" duration="21744000" />
-      <workItem from="1537572586483" duration="38455000" />
+      <workItem from="1537572586483" duration="44373000" />
+      <workItem from="1538156841408" duration="595000" />
+      <workItem from="1538247869113" duration="598000" />
+      <workItem from="1541368867035" duration="1331000" />
+      <workItem from="1543614961610" duration="8909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72507000" />
+    <option name="totallyTimeSpent" value="89858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12248917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13784955" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32830188" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.25283018" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3018868" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3207547" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -623,26 +670,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/functions/lib/routes/index.js" />
-    <entry file="file://$PROJECT_DIR$/functions/lib/modules/friends.js" />
-    <entry file="file://$PROJECT_DIR$/.firebaserc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/firebase.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/auth.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -695,13 +726,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/node_modules/hoek/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="246" column="30" selection-start-line="246" selection-start-column="25" selection-end-line="246" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/hoek/lib/index.js" />
     <entry file="file://$PROJECT_DIR$/functions/node_modules/typescript/lib/lib.es2015.iterable.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -709,13 +734,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/errors/a.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="91" column="28" lean-forward="true" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/errors/a.ts" />
     <entry file="file://$PROJECT_DIR$/functions/node_modules/express-serve-static-core/express-serve-static-core.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -730,13 +749,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/node_modules/boom/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1129">
-          <caret line="245" lean-forward="true" selection-start-line="245" selection-end-line="245" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/boom/lib/index.js" />
     <entry file="file://$PROJECT_DIR$/functions/node_modules/@types/cors/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -744,16 +757,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/errors/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/errors/index.ts" />
     <entry file="file://$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/database.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="968">
@@ -814,9 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="61" column="68" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="68" />
-          <folding>
-            <element signature="n#DocumentReference#0;n#firestore#0;n#admin#8" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -870,13 +871,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/lib/errors/Whoops.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -899,54 +894,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/friends/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/src/auth/index.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/support/finalizer/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#112#146#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="984">
-            <caret line="79" column="3" selection-start-line="79" selection-start-column="3" selection-end-line="79" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/support/finalizer/index.ts" />
     <entry file="file://$PROJECT_DIR$/functions/node_modules/typescript/lib/lib.es2015.promise.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -954,10 +909,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/support/controller/index.ts">
+    <entry file="file://$PROJECT_DIR$/functions/node_modules/firebase-functions/lib/providers/auth.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1241">
+            <caret line="79" column="3" selection-start-line="79" selection-start-column="3" selection-end-line="79" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/friends/controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/friends/friends-search-controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/support/controller/AlgoliaController.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/lib/support/finalizer/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/errors/Whoops.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="388" column="17" selection-start-line="388" selection-start-column="17" selection-end-line="388" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/support/controller/FirestoreController.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/friends/friends-invite-controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#112#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions/src/friends/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -966,37 +1013,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions/src/friends/router.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        <state relative-caret-position="425">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
             <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/errors/Whoops.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="989">
-          <caret line="417" column="27" lean-forward="true" selection-start-line="417" selection-start-column="27" selection-end-line="417" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/friends/controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions/src/friends/fiend-invite-controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1022">
-          <caret line="112" column="104" lean-forward="true" selection-start-line="112" selection-start-column="104" selection-end-line="112" selection-end-column="104" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>

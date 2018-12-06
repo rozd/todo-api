@@ -6,8 +6,7 @@ import * as express from 'express'
 import * as cors from 'cors'
 import * as parser from 'body-parser'
 
-import whoops from './errors/Whoops'
-import { whoopsErrorHandler} from "./errors/Whoops";
+import { default as whoops, whoopsErrorHandler} from './errors/Whoops'
 
 import * as auth from './auth'
 import * as friends from './friends'
