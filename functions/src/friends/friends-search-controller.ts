@@ -1,6 +1,6 @@
 import {AlgoliaController} from "../support/controller/AlgoliaController";
 import * as algoliasearch from "algoliasearch";
-import {Whoops} from "../errors/Whoops";
+import {Woops} from "woops/lib/Woops";
 
 const FRIENDS_INDEX_NAME = 'todo_dev_FRIENDS';
 
@@ -14,7 +14,7 @@ export class FriendsSearchController extends AlgoliaController {
 
     public create = (req, res): Promise<any> => {
         if (!req.body.email) {
-            return Promise.reject(Whoops.badRequest("An email is a required param."));
+            return Promise.reject(Woops.badRequest("An email is a required param."));
         }
         req.body.objectID = req.params.friendId;
         return this.friends.saveObject(req.body).then(value => {

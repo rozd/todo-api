@@ -1,7 +1,7 @@
 import {Request, Response} from "express";
-import {Whoops} from "../errors/Whoops";
 import {DocumentSnapshot} from "firebase-functions/lib/providers/firestore";
 import {FirestoreController} from "../support/controller/FirestoreController";
+import {Woops} from "woops/lib/Woops";
 
 export class FriendInviteController extends FirestoreController {
 
@@ -28,16 +28,16 @@ export class FriendInviteController extends FirestoreController {
                 const inviteeFriendSnp: DocumentSnapshot = value[3];
                 const outgoingInviteSnp: DocumentSnapshot = value[4];
                 if (!inviteeSnp.exists) {
-                    throw Whoops.notFound('Invitee user not found');
+                    throw Woops.notFound('Invitee user not found');
                 }
                 if (!inviterSnp.exists) {
-                    throw Whoops.notFound('Invitee user not found');
+                    throw Woops.notFound('Invitee user not found');
                 }
                 if (inviterFriendSnp.exists && inviteeFriendSnp.exists) {
-                    throw Whoops.conflict('You are already friends.')
+                    throw Woops.conflict('You are already friends.')
                 }
                 if (outgoingInviteSnp.exists && outgoingInviteSnp.data().status != 'rejected') {
-                    throw Whoops.conflict('You already sent invite to this user.');
+                    throw Woops.conflict('You already sent invite to this user.');
                 }
                 return { inviter: inviterSnp, invitee: inviteeSnp };
             }).then(() => {
@@ -66,7 +66,7 @@ export class FriendInviteController extends FirestoreController {
         return Promise.resolve(outgoingInvite.get())
             .then(snp => {
                 if (!snp.exists) {
-                    throw Whoops.notFound('The invitation could not be cancelled as it does not exist.');
+                    throw Woops.notFound('The invitation could not be cancelled as it does not exist.');
                 }
                 return snp;
             })
@@ -100,13 +100,13 @@ export class FriendInviteController extends FirestoreController {
                 const incomingInviteSnp: DocumentSnapshot = value[1];
                 const outgoingInviteSnp: DocumentSnapshot = value[2];
                 if (!inviterSnp.exists) {
-                    throw Whoops.notFound('Inviter user not found.');
+                    throw Woops.notFound('Inviter user not found.');
                 }
                 if (!inviteeSnp.exists) {
-                    throw Whoops.notFound('Invitee user not found.');
+                    throw Woops.notFound('Invitee user not found.');
                 }
                 if (!incomingInviteSnp.exists || !outgoingInviteSnp.exists) {
-                    throw Whoops.notFound('The invitation could not be accepted as it does not exist.');
+                    throw Woops.notFound('The invitation could not be accepted as it does not exist.');
                 }
                 return { inviter: inviterSnp, invitee: inviteeSnp };
             })
@@ -140,10 +140,10 @@ export class FriendInviteController extends FirestoreController {
                 const incomingInviteSnp: DocumentSnapshot = value[0];
                 const outgoingInviteSnp: DocumentSnapshot = value[1];
                 if (!incomingInviteSnp.exists) {
-                    throw Whoops.notFound('The invitation could not be rejected as it does not exist anymore.');
+                    throw Woops.notFound('The invitation could not be rejected as it does not exist anymore.');
                 }
                 if (!outgoingInviteSnp.exists) {
-                    throw Whoops.notFound('The invitation could not be rejected as it does not exist anymore on inviter side.');
+                    throw Woops.notFound('The invitation could not be rejected as it does not exist anymore on inviter side.');
                 }
                 return true
             })

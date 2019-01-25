@@ -11,13 +11,13 @@ export const firebase = (req: Request, res: Response, next: NextFunction) => {
             'Make sure you authorize your request by providing the following HTTP header:',
             'Authorization: Bearer <Firebase ID Token>',
             'or by passing a "__session" cookie.');
-        res.whoops.unauthorized();
+        res.woops.unauthorized();
         return;
     }
 
     const accessToken = getAccessTokenFromRequest(req);
     if (!accessToken) {
-        res.whoops.unauthorized();
+        res.woops.unauthorized();
     }
 
     admin.auth().verifyIdToken(accessToken).then(decodedIdToken => {
@@ -26,7 +26,7 @@ export const firebase = (req: Request, res: Response, next: NextFunction) => {
         next()
     }).catch(reason => {
         console.error('Error while verifying Firebase ID token:', reason);
-        res.whoops.unauthorized();
+        res.woops.unauthorized();
     });
 };
 

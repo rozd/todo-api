@@ -6,7 +6,8 @@ admin.initializeApp();
 const express = require("express");
 const cors = require("cors");
 const parser = require("body-parser");
-const Whoops_1 = require("./errors/Whoops");
+const woops_1 = require("woops");
+const WoopsOptions_1 = require("woops/lib/WoopsOptions");
 const auth = require("./auth");
 const friends = require("./friends");
 // Start writing Firebase Functions
@@ -24,8 +25,8 @@ exports.onUserProfileUpdate = friends.onUserProfileUpdate;
 const app = express();
 // Automatically allow cross-origin requests
 app.use(cors({ origin: true }));
-// Initializes Whoops error support
-app.use(Whoops_1.default());
+// Initializes Woops error support
+app.use(woops_1.default(new WoopsOptions_1.WoopsOptions()));
 // Authentication
 app.use(auth.firebase);
 // Parsing body
@@ -33,7 +34,7 @@ app.use(parser.json());
 app.use(parser.urlencoded({ extended: true }));
 // Module routes
 app.use('/friends', friends.router);
-// Adds error handling with Whoops
-app.use(Whoops_1.whoopsErrorHandler);
+// Adds error handling with Woops
+app.use(woops_1.woopsErrorHandler);
 exports.api = functions.https.onRequest(app);
 //# sourceMappingURL=index.js.map

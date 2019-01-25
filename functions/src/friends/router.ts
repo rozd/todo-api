@@ -2,7 +2,7 @@ import { Router, Request, Response } from 'express';
 
 import invite from './friends-invite-controller';
 import search from './friends-search-controller';
-import {whoopsErrorHandler} from "../errors/Whoops";
+import {woopsErrorHandler} from 'woops';
 
 const router = Router();
 
@@ -21,6 +21,6 @@ router.route('/:friend/invite/incoming')
 
 router.route('/search').get(search.search);
 
-router.use(whoopsErrorHandler);
+router.use(woopsErrorHandler);
 
 export const FriendRouter: Router = router;
