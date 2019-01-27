@@ -6,8 +6,8 @@ import * as express from 'express'
 import * as cors from 'cors'
 import * as parser from 'body-parser'
 
-import { default as woops, woopsErrorHandler} from 'woops';
-import {WoopsOptions} from "woops/lib/WoopsOptions";
+import woops from 'woops';
+import { woopsExceptionHandler } from 'woops';
 
 import * as auth from './auth'
 import * as friends from './friends'
@@ -32,11 +32,11 @@ export const onUserProfileUpdate = friends.onUserProfileUpdate;
 
 const app = express();
 
+// Install Woops error support
+app.use(woops());
+
 // Automatically allow cross-origin requests
 app.use(cors({origin: true}));
-
-// Initializes Woops error support
-app.use(woops(new WoopsOptions()));
 
 // Authentication
 app.use(auth.firebase);
@@ -49,6 +49,6 @@ app.use(parser.urlencoded({ extended: true }));
 app.use('/friends', friends.router);
 
 // Adds error handling with Woops
-app.use(woopsErrorHandler);
+app.use(woopsExceptionHandler);
 
 export const api = functions.https.onRequest(app);

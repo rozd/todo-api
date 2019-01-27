@@ -7,7 +7,7 @@ const express = require("express");
 const cors = require("cors");
 const parser = require("body-parser");
 const woops_1 = require("woops");
-const WoopsOptions_1 = require("woops/lib/WoopsOptions");
+const woops_2 = require("woops");
 const auth = require("./auth");
 const friends = require("./friends");
 // Start writing Firebase Functions
@@ -23,10 +23,10 @@ exports.onUserProfileDelete = friends.onUserProfileDelete;
 exports.onUserProfileUpdate = friends.onUserProfileUpdate;
 // Server application
 const app = express();
+// Install Woops error support
+app.use(woops_1.default());
 // Automatically allow cross-origin requests
 app.use(cors({ origin: true }));
-// Initializes Woops error support
-app.use(woops_1.default(new WoopsOptions_1.WoopsOptions()));
 // Authentication
 app.use(auth.firebase);
 // Parsing body
@@ -35,6 +35,6 @@ app.use(parser.urlencoded({ extended: true }));
 // Module routes
 app.use('/friends', friends.router);
 // Adds error handling with Woops
-app.use(woops_1.woopsErrorHandler);
+app.use(woops_2.woopsExceptionHandler);
 exports.api = functions.https.onRequest(app);
 //# sourceMappingURL=index.js.map

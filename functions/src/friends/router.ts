@@ -2,7 +2,6 @@ import { Router, Request, Response } from 'express';
 
 import invite from './friends-invite-controller';
 import search from './friends-search-controller';
-import {woopsErrorHandler} from 'woops';
 
 const router = Router();
 
@@ -19,8 +18,7 @@ router.route('/:friend/invite/incoming')
     .post(invite.accept)
     .delete(invite.reject);
 
-router.route('/search').get(search.search);
-
-router.use(woopsErrorHandler);
+router.route('/search')
+    .get(search.search);
 
 export const FriendRouter: Router = router;
