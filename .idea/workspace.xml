@@ -37,7 +37,7 @@
           <entry key="json" value="143" />
           <entry key="md" value="287" />
           <entry key="ts" value="15629" />
-          <entry key="yml" value="137" />
+          <entry key="yml" value="156" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -47,7 +47,7 @@
           <entry key="Markdown" value="287" />
           <entry key="PLAIN_TEXT" value="63" />
           <entry key="TypeScript" value="15629" />
-          <entry key="YAML" value="137" />
+          <entry key="YAML" value="156" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -188,8 +188,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="340">
+              <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -444,12 +444,12 @@
       <workItem from="1538247869113" duration="598000" />
       <workItem from="1541368867035" duration="1331000" />
       <workItem from="1543614961610" duration="11171000" />
-      <workItem from="1548148970211" duration="21103000" />
+      <workItem from="1548148970211" duration="22029000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113223000" />
+    <option name="totallyTimeSpent" value="114149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
@@ -858,8 +858,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="340">
+          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
