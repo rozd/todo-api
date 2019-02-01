@@ -17,6 +17,8 @@ jobs:
     working_directory: ~/repo/functions
 
     steps:
+      -run: ssh -T git@github.com
+        
       - checkout
 
       # Download and cache dependencies
