@@ -33,9 +33,24 @@
 {
 	"email": "max.rozdobudko.dev@gmail.com",
 	"displayName": "Max",
+	"picture": {
+	    "url": "a URL"
+	    "thumb": {
+	        "icon16": "url to 16px icon"
+	        "icon32": "",
+	        "icon64": "",
+	        "icon128": "",
+	        "icon256": ""
+	    }
+	},
 	"lists": {
-		"list1": "owner|guest",
-		"list2": "owner|guest"
+	    "list1": {
+	        "name": "For dinner"
+	        "role": "owner|guest"
+	    },
+	    "list2": {
+	        
+	    }
 	},
 	"friends": {
 		"user1": {

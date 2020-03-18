@@ -31,7 +31,7 @@ export class FriendInviteController extends FirestoreController {
                     throw Woops.notFound('Invitee user not found');
                 }
                 if (!inviterSnp.exists) {
-                    throw Woops.notFound('Invitee user not found');
+                    throw Woops.notFound('Inviter user not found');
                 }
                 if (inviterFriendSnp.exists && inviteeFriendSnp.exists) {
                     throw Woops.conflict('You are already friends.')
